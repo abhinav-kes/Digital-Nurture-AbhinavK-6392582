@@ -1,6 +1,9 @@
-The time complexity of the basic recursive algorithm for financial forecasting—where we calculate the future value after n years using a constant growth rate—is O(n). This is because the function makes one recursive call for each year, from n down to 0. Each call performs a constant-time operation (a single multiplication), so the total time grows linearly with the number of years n.
+The time complexity of the basic recursive algorithm for financial forecasting—where we calculate the future value after n years using a constant growth rate—is O(n).
+This is because the function makes one recursive call for each year, from n down to 0.
+Each call performs a constant-time operation (a single multiplication), so the total time grows linearly with the number of years n.
 
-However, in more complex recursive problems, recursion without optimization can lead to exponential time complexity (O(2^n)), because the same subproblems are solved multiple times. Though the financial forecasting algorithm doesn’t suffer from this, it's important to understand that unoptimized recursion can be highly inefficient in general.
+However, in more complex recursive problems, recursion without optimization can lead to exponential time complexity (O(2^n)), because the same subproblems are solved multiple times. 
+Though the financial forecasting algorithm doesn’t suffer from this, it's important to understand that unoptimized recursion can be highly inefficient in general.
 To optimize a recursive solution and avoid excessive computation, we can use techniques like memoization and bottom-up iteration:
 
 Memoization stores the results of already computed subproblems in a data structure (like a HashMap or array). When the function is called with the same input again, it returns the stored result instead of recomputing it. This reduces redundant calls and ensures each unique subproblem is solved only once, bringing the time complexity down to O(n) even for more complex recursive problems.
