@@ -1,5 +1,8 @@
-Big O notation is a mathematical way to describe the time or space complexity of an algorithm in terms of the input size n. It is a way to express an upper bound of an algorithm’s time or space complexity. By focusing on the most significant term and ignoring constants or lower-order terms, Big O gives a high-level understanding of the algorithm's efficiency. For example, an algorithm with O(n) time complexity grows linearly with the input size, while an O(log n) algorithm becomes significantly more efficient as n increases.
+Big O notation is a mathematical way to describe the time or space complexity of an algorithm in terms of the input size n. 
+It is a way to express an upper bound of an algorithm’s time or space complexity.
+By focusing on the most significant term and ignoring constants or lower-order terms, Big O gives a high-level understanding of the algorithm's efficiency. 
+For example, an algorithm with O(n) time complexity grows linearly with the input size, while an O(log n) algorithm becomes significantly more efficient as n increases.
 When analyzing search operations, there are three scenarios:
 • Best Case: The condition where the desired element is found at the most optimal position (e.g., first element in linear search or middle element in binary search).
 • Average Case: A general case where the element might be somewhere in the middle or chosen randomly; this represents expected behavior during typical use.
-• Worst Case: The scenario where the element is at the least favorable position or not present at all, requiring the algorithm to examine the entire input (e.g., all n elements in linear search). Understanding these cases helps in predicting the algorithm's behavior under different conditions and choosing the most suitable one for the system.
+• Worst Case: The scenario where the element is at the least favorable position or not present at all, requiring the algorithm to examine the entire input (e.g., all n elements in linear search).
