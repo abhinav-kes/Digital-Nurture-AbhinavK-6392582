@@ -1,2 +1,7 @@
-Linear search has a worst-case and average-case time complexity of O(n), meaning that it may need to scan every element in the list to find the element. Its best case is O(1), when the element is found at the beginning of the list. Binary search has a time complexity of O(log n) , making it more efficient for larger datasets. However, the list needs to be sorted to perform binary search, where linear search can be performed on unsorted data.
-Binary search is more suitable for an e-commerce platform because fast and frequent search operations are essential. Items can be sorted according to their names, allowing binary search to quickly locate the required items. The performance of linear search degrades with increasing scale. Hence, for an e-commerce platform with a large number of products, binary search ensures better responsiveness and scalability.
+Linear search has a worst-case and average-case time complexity of O(n), meaning that it may need to scan every element in the list to find the element. 
+Its best case is O(1), when the element is found at the beginning of the list. Binary search has a time complexity of O(log n) , making it more efficient for larger datasets. 
+However, the list needs to be sorted to perform binary search, where linear search can be performed on unsorted data.
+Binary search is more suitable for an e-commerce platform because fast and frequent search operations are essential. 
+Items can be sorted according to their names, allowing binary search to quickly locate the required items.
+The performance of linear search degrades with increasing scale. 
+Hence, for an e-commerce platform with a large number of products, binary search ensures better responsiveness and scalability.
