@@ -8,11 +8,9 @@ public class AccountController {
 
     @GetMapping("/{number}")
     public Account getAccount(@PathVariable String number) {
-        // Dummy response
         return new Account(number, "savings", 234343);
     }
 
-    // Inner class for response
     static class Account {
         private String number;
         private String type;
@@ -24,7 +22,6 @@ public class AccountController {
             this.balance = balance;
         }
 
-        // Getters (Required for JSON serialization)
         public String getNumber() { return number; }
         public String getType() { return type; }
         public double getBalance() { return balance; }
