@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 20px;
+}
+
+.textRed {
+  color: red;
+}
+
+.textGreen {
+  color: green;
+}
